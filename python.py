@@ -63,6 +63,6 @@ def taskII(overweightcount):
 print(data)    
 print("Number of Overweight people: {}".format(taskII(data['people'])))
 
-with open('newdata.txt', 'w+') as output:
+with open('bmi_output.txt', 'w+') as output:
     json.dump(data, output)
     
